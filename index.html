@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Donasi Yuk</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top px-0">
+            <div class="container px-0">
+                <div class="topbar">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-md-8">
+                            <div class="topbar-info d-flex flex-wrap">
+                                <a href="mailto:alfinnaja022@gmail.com" class="text-light me-4"><i class="fas fa-envelope text-white me-2"></i>alfinnaja022@gmail.com</a>
+                                <a href="tel: +62 877-5362-0497" class="text-light"><i class="fas fa-phone-alt text-white me-2"></i>+62 877-5362-0497</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="topbar-icon d-flex align-items-center justify-content-end">
+                                <a href="#" class="btn-square text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="btn-square text-white me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/alfinnnaja/profilecard/?igsh=cTR5emVsdWxiZjRz" class="btn-square text-white me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="btn-square text-white me-2"><i class="fab fa-pinterest"></i></a>
+                                <a href="#" class="btn-square text-white me-0"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-light bg-light navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand ms-3">
+                        <h1 class="text-primary display-5"><img src="img/favicon.ico" alt=""> Donasi Yuk...</h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-light" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="events.html" class="nav-item nav-link">Events</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                    <a href="gallery.html" class="dropdown-item">Gallery</a>
+                                    <a href="volunteer.html" class="dropdown-item">Relawan</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px;">
+                            <a href="contact.html" class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3">Donasi Yuk</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        
+       <!-- Carousel Start -->
+        <div class="container-fluid carousel-header vh-100 px-0">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/carousel-1.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Ayo Donasi Yuk..</h4>
+                                <h1 class="display-1 text-capitalize text-white mb-4">Lindungi Lingkungan Kita</h1>
+                                <p class="mb-5 fs-5"> Kami Dari Donasi Yuk Lindungi lingkungan kita untuk kepedulian sosial kita kepada sesama makhluk hidup terutama yang membutuhkan bantuan kita
+                                </p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="contact.html">Join With Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel-2.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Ayo Donasi Yuk..</h4>
+                                <h1 class="display-1 text-capitalize text-white mb-4">Lindungi Lingkungan Kita</h1>
+                                <p class="mb-5 fs-5"> Kami Dari Donasi Yuk Lindungi lingkungan kita untuk kepedulian sosial kita kepada sesama makhluk hidup terutama yang membutuhkan bantuan kita 
+                                </p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="contact.html">Join With Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel-3.jpg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Ayo Donasi Yuk..</h4>
+                                <h1 class="display-1 text-capitalize text-white mb-4">Lindungi Lingkungan Kita</h1>
+                                <p class="mb-5 fs-5"> Kami Dari Donasi Yuk Lindungi lingkungan kita untuk kepedulian sosial kita kepada sesama makhluk hidup terutama yang membutuhkan bantuan kita 
+                                </p>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="contact.html">Join With Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+
+
+
+        <!-- About Start -->
+        <div class="container-fluid about  py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5">
+                        <div class="h-100">
+                            <img src="img/about-1.jpg" class="img-fluid w-100 h-100" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <h5 class="text-uppercase text-primary">Tentang Kami</h5>
+                        <h1 class="mb-4">Tujuan Kami adalah Melindungi Lingkungan Untuk di ajak Donasi</h1>
+                        <p class="fs-5 mb-4"> Kami Dari Donasi Yuk Untuk Mengajak Untuk Berdonasi Untuk Melindungi Lingkungn Kita Yang Membutuhkan dari Kami.
+                        </p>
+                        <div class="tab-class bg-secondary p-4">
+                            <ul class="nav d-flex mb-2">
+                                
+                                <li class="nav-item mb-3">
+                                    <a class="d-flex py-2 mx-3 text-center bg-white" data-bs-toggle="pill" href="#tab-2">
+                                        <span class="text-dark" style="width: 150px;">Visi</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item mb-3">
+                                    <a class="d-flex py-2 text-center bg-white" data-bs-toggle="pill" href="#tab-3">
+                                        <span class="text-dark" style="width: 150px;">Misi</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                
+                                <div id="tab-2" class="tab-pane fade show p-0">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <div class="text-start my-auto">
+                                                    <h5 class="text-uppercase mb-3">Visi</h5>
+                                                    <p class="mb-4">Mewujudkan Generasi bangsa yang berakhlak mulia, Sehat,Cerdas, Berjiwa Tangguh, Mandiri dan Terampil.
+                                                    </p>
+                                                    <div class="d-flex align-items-center justify-content-start">
+                                                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab-3" class="tab-pane fade show p-0">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <div class="text-start my-auto">
+                                                    <h5 class="text-uppercase mb-3">Misi</h5>
+                                                    <p class="mb-4">
+                                                        <li>Mewujudkan generasi bangsa yang agamis melalui kegiatan keagamaan.</li>
+                                                        <li>Mewujudkan generasi bangsa yang agamis melalui kegiatan keagamaan.</li>
+                                                        <li>Mewujudkan generasi bangsa yang cerdas dan berwawasan luas melalui kegiatan pendidikan.</li>
+                                                        <li>Mewujudkan generasi bangsa yang peka terhadap perkembangan zaman, tangguh secaramental melalui kegiatan Pembinaan, Bimbingan dan Konseling.</li>
+                                                        <li>Mengembangkan dan meningkatkan kreatifitas generasi bangsa melalui kegiatankewirausahaan.</li>
+                                                    </p>
+                                                    <div class="d-flex align-items-center justify-content-start">
+                                                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        
+
+        <!-- Donation Start -->
+        <div class="container-fluid donation py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                    <h5 class="text-uppercase text-primary">Donasi YUk...</h5>
+                    <h1 class="mb-0">Uang Anda Akan Menyelamatkan Hidup Kami</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="donation-item">
+                            <img src="img/images (1).jpeg" class="img-fluid w-100" alt="Image">
+                            <div class="donation-content d-flex flex-column">
+                                <h5 class="text-uppercase text-primary mb-4">Angin Topan</h5>
+                                <a href="#" class="btn-hover-color display-6 text-white">Donasikan Yuk..</a>
+                                <h4 class="text-white mb-4">Untuk Korban Bencana Alam Angin Topan</h4>
+                                <p class="text-white mb-4">Bencana Alam Angin Topan Yang Terjadi Di Sebuah Kota Pada Tanggal 16 Januari 2024.</p>
+                                <div class="donation-btn d-flex align-items-center justify-content-start">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Donasi Yuk</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="donation-item">
+                            <img src="img/image 2.jpg" class="img-fluid w-100" alt="Image">
+                            <div class="donation-content d-flex flex-column">
+                                <h5 class="text-uppercase text-primary mb-4">Kebakaran Hutan</h5>
+                                <a href="#" class="btn-hover-color display-6 text-white">Donasi Yuk..</a>
+                                <h4 class="text-white mb-4">Untuk Korban Bencana Alam Kebakaran Hutan</h4>
+                                <p class="text-white mb-4">Bencana Alam Kebakaran Hutan Yang Terjadi Di Sebuah Kota Pada Tanggal 17 Juli 2024.</p>
+                                <div class="donation-btn d-flex align-items-center justify-content-start">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Donasi Yuk</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="donation-item">
+                            <img src="img/image 3.jpg" class="img-fluid w-100" alt="Image">
+                            <div class="donation-content d-flex flex-column">
+                                <h5 class="text-uppercase text-primary mb-4">Banjir Bandang</h5>
+                                <a href="#" class="btn-hover-color display-6 text-white">Donasi Yuk..</a>
+                                <h4 class="text-white mb-4">Untuk Korban Bencana Alam Banjir Bandang</h4>
+                                <p class="text-white mb-4">Bencana Alam Banjir Bandang Yang Terjadi Di Sebuah Kota Pada Tanggal 8 Februari 2024.</p>
+                                <div class="donation-btn d-flex align-items-center justify-content-start">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Donate !</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">All Donation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donation End -->
+
+
+        <!-- Counter Start -->
+        <div class="container-fluid counter py-5" style="background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(img/volunteers-bg.jpg) center center; background-size: cover;">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                    <h5 class="text-uppercase text-primary">Prestasi</h5>
+                    <p class="text-white mb-0">Pendapat Dan Perkembangan Yang Kami Capai Pada Organisasi Donasi Yuk.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter-item text-center border p-5">
+                            <i class="fas fa-thumbs-up fa-4x text-white"></i>
+                            <h3 class="text-white my-4">Like</h3>
+                            <div class="counter-counting">
+                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">3600</span>
+                                <span class="h1 fw-bold text-primary">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter-item text-center border p-5">
+                            <i class="fas fa-file-invoice-dollar fa-4x text-white"></i>
+                            <h3 class="text-white my-4">Uang Yang Terkumpulkan</h3>
+                            <div class="counter-counting text-center border-white w-100" style="border-style: dotted; font-size: 30px;">
+                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">513</span>
+                                <span class="h1 fw-bold text-primary">$</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter-item text-center border p-5">
+                            <i class="fas fa-user fa-4x text-white"></i>
+                            <h3 class="text-white my-4">Vonder</h3>
+                            <div class="counter-counting text-center border-white w-100" style="border-style: dotted; font-size: 30px;">
+                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">713</span>
+                                <span class="h1 fw-bold text-primary">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter-item text-center border p-5">
+                            <i class="fas fa-heart fa-4x text-white"></i>
+                            <h3 class="text-white my-4">Tujuan Donasi</h3>
+                            <div class="counter-counting text-center border-white w-100" style="border-style: dotted; font-size: 30px;">
+                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">487</span>
+                                <span class="h1 fw-bold text-primary">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="contact.html">Donasi Yuk !</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter End -->
+
+
+        
+
+
+        
+        
+
+
+        
+
+
+        <!-- Volunteers Start -->
+        <div class="container-fluid volunteer py-5 mt-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-5">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img src="img/foto1.jpg" class="img-fluid w-100" alt="Image">
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">MHAMMAD ALFINNAJA</h5>
+                                        <p class="mb-0 text-white">KETUA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img src="img/foto2.jpg" class="img-fluid w-100" alt="Image">
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">MUHAMMAD ZIDNI FAZA</h5>
+                                        <p class="mb-0 text-white">WAKIL KETUA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img src="img/foto3.jpg" class="img-fluid w-100" alt="Image">
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">MUHAMMAD DAYYAN SYAUQI</h5>
+                                        <p class="mb-0 text-white">PENASEHAT</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="volunteer-img">
+                                    <img src="img/foto4.jpg" class="img-fluid w-100" alt="Image">
+                                    <div class="volunteer-title">
+                                        <h5 class="mb-2 text-white">DWI AYU FITRIANI</h5>
+                                        <p class="mb-0 text-white">BENDAHARA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h5 class="text-uppercase text-primary">Relawan Donasi Yuk.</h5>
+                        <h1 class="mb-4">Ayo Bergabunglah Dengan Relawan Kami.</h1>
+                        <p class="mb-4">Mari Kita Budayakan Orang Yang Membutuhkan Kita Ayo Bergabung Dengan Relawan Kami.
+                        </p>
+                        
+                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="contact.html">Donasi Yuk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Volunteers End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark text-body py-5">
+            <div class="container py-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Volunteer</h4>
+                            <a href="volunteer.html"><i class="fas fa-angle-right me-2"></i>MUHAMMAD ALFINNAJA</a>
+                            <a href="volunteer.html"><i class="fas fa-angle-right me-2"></i>ZIDNI FAZA</a>
+                            <a href="volunteer.html"><i class="fas fa-angle-right me-2"></i>DAYYAN SYAUQI</a>
+                            <a href="volunteer.html"><i class="fas fa-angle-right me-2"></i>DWI AYU FITRIANI</a>
+                            <a href="volunteer.html"><i class="fas fa-angle-right me-2"></i>M.KHISANUL LABIB</a>
+                            <a href="volunteer.html"><i class="fas fa-angle-right me-2"></i>HANAN DIVA OKSAVIANO</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">Our Gallery</h4>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img src="img/gallery-footer-1.jpg" class="img-fluid w-100" alt="">
+                                        <div class="footer-search-icon">
+                                            <a href="img/gallery-footer-1.jpg" data-lightbox="footerGallery-1" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
+                                        </div>
+                                    </div>
+                               </div>
+                               <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img src="img/gallery-footer-2.jpg" class="img-fluid w-100" alt="">
+                                        <div class="footer-search-icon">
+                                            <a href="img/gallery-footer-2.jpg" data-lightbox="footerGallery-2" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
+                                        </div>
+                                    </div>
+                               </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img src="img/gallery-footer-3.jpg" class="img-fluid w-100" alt="">
+                                        <div class="footer-search-icon">
+                                            <a href="img/gallery-footer-3.jpg" data-lightbox="footerGallery-3" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
+                                        </div>
+                                    </div>
+                               </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img src="img/gallery-footer-4.jpg" class="img-fluid w-100" alt="">
+                                        <div class="footer-search-icon">
+                                            <a href="img/gallery-footer-4.jpg" data-lightbox="footerGallery-4" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
+                                        </div>
+                                    </div>
+                               </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img src="img/gallery-footer-5.jpg" class="img-fluid w-100" alt="">
+                                        <div class="footer-search-icon">
+                                            <a href="img/gallery-footer-5.jpg" data-lightbox="footerGallery-5" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
+                                        </div>
+                                    </div>
+                               </div>
+                               <div class="col-4">
+									<div class="footer-gallery">
+										<img src="img/gallery-footer-6.jpg" class="img-fluid w-100" alt="">
+                                        <div class="footer-search-icon">
+                                            <a href="img/gallery-footer-6.jpg" data-lightbox="footerGallery-6" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
+                                        </div>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        <div class="whatsapp-chat">
+            <a href="https://wa.me/6287753620497" target="_blank" rel="noopener noreferrer">
+                <img src="img/wa png.png" alt="Chat WhatsApp">
+            </a>
+        </div>
+        
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-4 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="https://www.instagram.com/alfinnnaja/profilecard/?igsh=cTR5emVsdWxiZjRz"><i class="fas fa-copyright text-light me-2"></i>alfinnaja</a>DesainBy:alfinnaja.</span>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a href="#" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/alfinnnaja/profilecard/?igsh=cTR5emVsdWxiZjRz" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-pinterest"></i></a>
+                            <a href="#" class="btn-hover-color btn-square text-white me-0"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center text-md-end text-body">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed By alfinnaja <a class="border-bottom" href="https://www.instagram.com/alfinnnaja/profilecard/?igsh=cTR5emVsdWxiZjRz"></a> Distributed By alfinnaja<a class="border-bottom" href="tel: +62 877-5362-0497">+62 877-5362-0497</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+    </body>
+
+</html>
